@@ -9,6 +9,8 @@ $sql = "CREATE TABLE posts (
     post_content VARCHAR(256) NOT NULL,
     thumbnail VARCHAR(520) NOT NULL,
     slug VARCHAR(256) NOT NULL,
+    category_id INT(6) UNSIGNED,
+    FOREIGN KEY (category_id) REFERENCES categories(id),
     reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
     )";
     

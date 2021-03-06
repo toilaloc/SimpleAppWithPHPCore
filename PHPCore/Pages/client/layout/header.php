@@ -1,3 +1,5 @@
+<?php require_once "../../../DB/config.php"; ?>
+<?php require_once "../../../App/Function/function.php"; ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,6 +13,7 @@
   </head>
   <body>
        <!-- Navigation -->
+     
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">Start Bootstrap</a>
